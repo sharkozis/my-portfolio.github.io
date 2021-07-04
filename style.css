@@ -125,8 +125,162 @@ header{
     
 }
 /* right header div here */
-
-
 /*header style end here*/
+
+
+/* contact form start here */
+/*c upper div here*/
+.c-upper-div{
+    background-color:#222f3e;
+    height:400px;
+    display: flex;
+    width:100%;
+    
+}
+
+.c-left,.c-right{
+    width: 50%;
+    margin:50px;
+   
+}
+.c-left h4,p{
+    color:#537194;
+    font-size: 18px;
+}
+.c-left span,a{
+    color:#feca57;
+    font-weight: bold;
+    transition: 1s ease all;
+}
+.c-left h4,h2,p{
+    margin-bottom: 20px;
+}
+.c-left a:hover{
+    color:#222f3e;
+    background-color:#feca57;
+    transition: 0.9s all ;
+    transform: scale(2);
+}
+
+
+
+.c-right h1{
+    font-size: 28px;
+}
+.c-right p{
+    font-size: 15px;
+}
+.c-right h1,p{
+    margin-bottom:20px;
+}
+
+.sm-c-div{
+    display: flex;
+    width: 100%;
+}
+
+.sm-c-left,.sm-c-right{
+    width: 50%;
+    display: flex;
+}
+
+.sm-c-left span,.sm-c-right span{
+    color:#feca57;
+    font-size: 80px;
+    margin-right: 10px;
+}
+.sm-c-left p,.sm-c-right p{
+    margin-top: 30px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+/*c upper div end here*/
+
+
+/*c lower div start here*/
+
+.c-lower-div{
+    background-color:#1e272e;
+    height: 400px;
+    
+} /*     #35495f;    */
+.common{
+    width:350px;
+    padding:80px 15px;
+    text-align: center;
+    margin: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.7);
+    transition: 0.6s ease all;
+    
+}
+.detail-div{
+    display: flex;
+    justify-content: center;
+
+}
+.detail-div i{
+    font-size: 38px;
+}
+
+.one-d{
+    color:white;
+    margin-top:-50px;
+    background-color:#fac042;
+    
+}
+.common:hover{
+    transform:translateY(-50px);
+    
+}
+.one-d i,h3,p{
+    margin-bottom:10px;
+}
+.one-d h3{
+    font-size: 28px;
+}
+.one-d p{
+    color: #fac042;
+    background-color: white;
+    display: inline;
+    padding:2px;
+    font-weight: bold;
+}
+.two-d{
+    color:white;
+    margin-top:-50px;
+    background-color:#343e49; 
+}
+.two-d i,h3,p{
+    margin-bottom:10px;
+}
+.two-d h3{
+    font-size: 28px;
+}
+.two-d p{
+    color: #343e49; 
+    background-color:white;
+    padding:2px;
+    display: inline;
+    font-weight: bold;
+}
+.three-d{
+    color:white;
+    margin-top:-50px;
+    background-color:#343e49; 
+}
+.three-d i,h3,p{
+    margin-bottom:10px;
+}
+.three-d h3{
+    font-size: 28px;
+}
+.three-d p{
+    color: #343e49; 
+    background-color:white;
+    padding:2px;
+    display: inline;
+    font-weight: bold;
+
 
 
