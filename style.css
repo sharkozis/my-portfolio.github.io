@@ -1,0 +1,108 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background:#1e272e;
+    color:white;
+}
+
+/*header style start here #222f3e;*/
+
+header{
+    display: flex;
+    width:100%;
+}
+
+/* left header div here */
+.l-div{
+    width: 50%;
+    /* border:1px solid red; */
+    margin:150px;
+}
+.l-div h1{
+    font-size: 100px;
+    font-weight: bold;
+}
+.l-div span{
+    background-color:#feca57;
+    padding:10px;
+}
+.empty{
+    width:80px;
+    height:10px;
+    background-color:#feca57;
+    margin-top: 00px;
+}
+/* left header div here */
+
+/* right header div here */
+
+.r-div{
+    width:50%;
+    margin:150px;
+    /* border:1px solid red; */
+}
+
+.r-div ul{
+    display:flex;
+    margin-bottom:80px;
+    position: relative;
+}
+.r-div ul li{
+    list-style-type:none;
+    margin:15px;
+}
+.r-div ul li a{
+    text-decoration: none;
+    padding-right:10px;
+    color:#636e7a;
+    font-size: 25px;
+    font-weight: bold;
+   
+}
+.r-div ul li a span{
+    color:white;
+}
+.circle{
+    width:7px;
+    height:7px;
+    border-radius: 50%;
+    background-color:#feca57;
+    position:absolute;
+    top:80%;
+    left:13%;
+}
+.r-div h4,h2,p{
+    margin-bottom:20px;
+}
+.r-div h4{
+    color:#636e7a;
+}
+.r-div h2{
+    font-size: 40px;
+}
+.r-div p{
+    color:#636e7a;
+    font-size: 25px;
+}
+.story{
+    color:#feca57;
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+/* right header div here */
+
+
+
+
+
+
+
+
+
+/*header style end here*/
