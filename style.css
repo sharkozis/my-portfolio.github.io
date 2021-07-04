@@ -75,6 +75,12 @@ header{
     position:absolute;
     top:80%;
     left:13%;
+    transition: 1s all ease;
+}
+.circle:hover{
+    transform:scale(1.5);
+    transition: 0.6s all ;
+    cursor: pointer;
 }
 .r-div h4,h2,p{
     margin-bottom:20px;
