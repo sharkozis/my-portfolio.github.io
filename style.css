@@ -72,7 +72,7 @@ header{
 
 .r-div ul{
     display:flex;
-    margin-bottom:80px;
+    margin-bottom:20px; /*previous margin edited here*/
     position: relative;
 }
 .r-div ul li{
@@ -217,6 +217,8 @@ header{
 .detail-div{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    align-items: center; /*this is use for alternate of negetive margin value*/
 
 }
 .detail-div i{
@@ -224,8 +226,8 @@ header{
 }
 
 .one-d{
-    color:white;
-    margin-top:-50px;
+    color:#343e49; /*color edited*/
+    /* margin-top:-50px; */
     background-color:#fac042;
     
 }
@@ -240,7 +242,7 @@ header{
     font-size: 28px;
 }
 .one-d p{
-    color: #fac042;
+    color: #343e49; /*color edited*/
     background-color: white;
     display: inline;
     padding:2px;
@@ -248,7 +250,7 @@ header{
 }
 .two-d{
     color:white;
-    margin-top:-50px;
+    /* margin-top:-50px; */
     background-color:#343e49; 
 }
 .two-d i,h3,p{
@@ -266,7 +268,7 @@ header{
 }
 .three-d{
     color:white;
-    margin-top:-50px;
+    /* margin-top:-50px; */
     background-color:#343e49; 
 }
 .three-d i,h3,p{
